@@ -7,7 +7,7 @@ import { TimeManagementModule } from './time-management/time-management.module';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
-    MongooseModule.forRoot(process.env.MONGODB_URI),
+    MongooseModule.forRoot(process.env.MONGODB_URI || ''),
     TimeManagementModule,
   ],
 })
