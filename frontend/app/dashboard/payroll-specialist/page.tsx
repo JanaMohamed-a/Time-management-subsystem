@@ -99,10 +99,13 @@ export default function PayrollSpecialistDashboardPage() {
               <p className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 bg-clip-text text-transparent">
               {mounted ? `Welcome back, ${user?.fullName || "Specialist"}!` : 'Welcome back!'}
             </p>
-            </div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Create and manage payroll configurations (all in draft status requiring manager approval). Process payroll, review disputes and claims, and generate reports.
+            </p>
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Create and manage payroll configurations with comprehensive tools and intuitive workflows.
             </p>
+          </div>
           </div>
 
           {/* Enhanced Gradient Line Separator */}
@@ -131,9 +134,12 @@ export default function PayrollSpecialistDashboardPage() {
               <div className="h-1.5 w-32 md:w-48 bg-gradient-to-r from-transparent via-blue-500 to-cyan-500 rounded-full shadow-lg shadow-blue-500/50"></div>
               <div className="p-2 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600 shadow-lg">
                 <Sparkles className="w-5 h-5 text-white" />
-            </div>
+              </div>
               <div className="h-1.5 w-32 md:w-48 bg-gradient-to-l from-transparent via-purple-500 to-pink-500 rounded-full shadow-lg shadow-purple-500/50"></div>
             </div>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Configure company-level payroll policies, pay grades, allowances, tax rules, and benefits. All configurations are created in draft status and require Payroll Manager approval before publishing. Editing is only allowed for draft status configurations.
+            </p>
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Configure company-level payroll policies, pay grades, allowances, tax rules, and benefits with powerful management tools
             </p>
@@ -388,7 +394,7 @@ export default function PayrollSpecialistDashboardPage() {
             <div className="h-1.5 w-32 md:w-48 bg-gradient-to-r from-transparent via-purple-500 to-pink-500 rounded-full shadow-lg shadow-purple-500/50"></div>
             <div className="p-2 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 shadow-lg">
               <Sparkles className="w-5 h-5 text-white" />
-          </div>
+            </div>
             <div className="h-1.5 w-32 md:w-48 bg-gradient-to-l from-transparent via-pink-500 to-purple-500 rounded-full shadow-lg shadow-pink-500/50"></div>
           </div>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -989,9 +995,12 @@ export default function PayrollSpecialistDashboardPage() {
             <div className="h-1.5 w-32 md:w-48 bg-gradient-to-r from-transparent via-indigo-500 to-purple-500 rounded-full shadow-lg shadow-indigo-500/50"></div>
             <div className="p-2 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 shadow-lg">
               <Sparkles className="w-5 h-5 text-white" />
-          </div>
+            </div>
             <div className="h-1.5 w-32 md:w-48 bg-gradient-to-l from-transparent via-purple-500 to-pink-500 rounded-full shadow-lg shadow-purple-500/50"></div>
           </div>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Approve/reject disputes and expense claims (approved items escalate to Payroll Manager for confirmation). Generate department reports and track status of claims, disputes, and refunds.
+          </p>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Review and approve employee disputes and claims, generate reports, and track payroll status with comprehensive analytics
           </p>
